@@ -42,7 +42,7 @@
         {{ node.text }}
       </span>
       <span
-        v-if="options.addNode.state == true"
+        v-if="options.addNode.state == true && node.addNode !== false"
         @click.stop="options.addNode.fn(node)"
         class="icon_parent">
         <i

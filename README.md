@@ -105,6 +105,7 @@ Here is a fully customized node:
     expanded: false,
     selected: false
   },
+  addNode: true,
   nodes: [
     {},
     ...
@@ -129,6 +130,7 @@ The Following properties define a node level css and behavior.
 | state.checkable  | Boolean --> Optional, default: true  | Another way to enable or disable the check event                                                                                              |
 | state.selectable | Boolean --> Optional, default: true  | Another way to enable or disable the select event                                                                                             |
 | state.expandable | Boolean --> Optional, default: true  | Another way to enable or disable the expand event                                                                                             |
+| addNode          | Boolean --> Optional, default: true | Used to enable or disable the add node button on a specific node                                                                               |
 | nodes            | Object --> Optional                    | Used to display the node's children. *Look above for a structure example*                                                                         |
 
 ## Options / Styles
