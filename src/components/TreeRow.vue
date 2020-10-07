@@ -51,7 +51,7 @@
         </i>
       </span>
       <span
-        v-if="options.editNode.state == true"
+        v-if="options.editNode.state == true && node.editNode !== false"
         @click.stop="options.editNode.fn(node)"
         class="icon_parent">
         <i
@@ -60,7 +60,7 @@
         </i>
       </span>
       <span
-        v-if="options.deleteNode.state == true"
+        v-if="options.deleteNode.state == true && node.deleteNode !== false"
         @click.stop="options.deleteNode.fn(node)"
         class="icon_parent">
         <i

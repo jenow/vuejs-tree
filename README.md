@@ -131,6 +131,8 @@ The Following properties define a node level css and behavior.
 | state.selectable | Boolean --> Optional, default: true  | Another way to enable or disable the select event                                                                                             |
 | state.expandable | Boolean --> Optional, default: true  | Another way to enable or disable the expand event                                                                                             |
 | addNode          | Boolean --> Optional, default: true | Used to enable or disable the add node button on a specific node                                                                               |
+| editNode          | Boolean --> Optional, default: true | Used to enable or disable the edit node button on a specific node                                                                               |
+| deleteNode          | Boolean --> Optional, default: true | Used to enable or disable the delete node button on a specific node                                                                               |
 | nodes            | Object --> Optional                    | Used to display the node's children. *Look above for a structure example*                                                                         |
 
 ## Options / Styles
